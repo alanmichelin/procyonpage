@@ -14,7 +14,8 @@ const Home = () =>{
     return(
         <Grid item xs={12} lg={12} >
           
-          <Paper className={classes.paper} className={classes.div} style={{backgroundImage:`url(${Background})`}} >
+          
+          <Paper className={`${classes.paper} ${classes.div}`} style={{backgroundImage:`url(${Background})`}} >
             {/* <img src={Background} alt="" srcset="" /> */}
             <img src={Logo} className={classes.logo} alt="" />
 

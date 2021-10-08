@@ -1,12 +1,10 @@
 import React from 'react';
 import './animation.css'
-import {useStyles} from '../styles'
-import { useState } from 'react';
+
 import Icon from './icons'
 
 export const SocialMedia = () =>{
-    const [hovered,setHovered] = useState(false)
-    const classes = useStyles()
+
 
     return(
         // <div><i className={`fab fa-instagram icon ${classes.icon} ${classes.animation}`} ></i></div>

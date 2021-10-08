@@ -1,9 +1,9 @@
 import React from 'react';
 
 import {useStyles} from '../styles'
-import { useState } from 'react';
+
 import sponsor1 from './GROUP_RECICLEAN.png'
-import sponsor2 from './maxx-blanco-02.png'
+// import sponsor2 from './maxx-blanco-02.png'
 import sponsor3 from './BAIRES-CERO--COP.png'
 export const Sponsors = () =>{
 
