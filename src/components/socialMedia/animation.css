@@ -1,0 +1,18 @@
+
+.icon{
+    color:white;
+    font-size:2em;
+    padding:1rem;
+}
+@font-face {
+  font-family: 'Tusker';
+  src: local('Tusker Grotesk 4500 Medium'),url('./TUSKERGROTESK-2700BOLD.TTF');
+}
+.text{
+  color:white;
+  font-size: 5rem;
+  font-family: 'Tusker';
+}
+.icondiv{
+        display: inline-block;
+}
